@@ -1,0 +1,126 @@
+body{
+    scroll-behavior: smooth;
+}
+/* todo navbar */
+.navbar{
+    background-image: linear-gradient(to right, #CB356B, #BD3F32);
+    position: fixed;
+    width: 100%;
+}
+/* todo end navbar */
+
+/* todo hero */
+#hero{
+    padding-top: 5%;
+    background-image: linear-gradient(to right, #CB356B, #BD3F32);
+}
+#hero img{
+    height: 350px;
+}
+/* todo end hero */
+
+/* todo service */
+#service{
+    margin-top: -5%;
+    margin-bottom: 50px;
+}
+.garis{
+    width: 150px;
+    height: 10px;
+    position: relative;
+    border-bottom: 2px solid #CB356B;
+    margin: -15px auto 0;
+}
+#service img{
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.font14{
+    font-size: 14px;
+}
+#service button{
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #CB356B, #BD3F32);
+    width: 120px;
+    font-size: 14px;
+}
+/* todo end service */
+
+/* todo about */
+#about{
+    background-color: #f1f2f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.garis2{
+    width: 250px;
+    height: 10px;
+    position: relative;
+    border-bottom: 2px solid #CB356B;
+    margin: -15px auto 0;
+    margin-bottom: 80px;
+}
+#about img{
+    margin-top: -15%;
+}
+/* todo end about */
+
+/* todo testimonial */
+#testimonial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.garis3{
+    width: 180px;
+    height: 10px;
+    position: relative;
+    border-bottom: 2px solid #CB356B;
+    margin: -15px auto 0;
+    margin-bottom: 80px;
+}
+.card-testi p{
+    font-size: 11px;
+    font-weight: lighter;
+}
+.card-testi{
+    border-left: 4px solid #CB356B;
+}
+.card-testi img{
+    width: 50px;
+    height: 50px;
+}
+.card-testi span{
+    font-size: 12px;
+}
+.card-testi em{
+    font-size: 11px;
+    font-weight: lighter;
+}
+/* todo end testimonial */
+
+/* todo social media */
+#socialmedia{
+    background-color: #f1f2f6;
+    padding-top: 50px;
+}
+#socialmedia img{
+    width: 50px;
+    height: 50px;
+}
+.list-icon a{
+    margin-left: 15px;
+}
+/* todo end social media */
+
+/* todo footer */
+#footer{
+    background-image: linear-gradient(to right, #CB356B, #BD3F32);
+    padding-bottom: 50px;
+    margin-top: -5%;
+}
+#footer p{
+    font-size: 11px;
+    font-weight: lighter;
+}
+/* todo end footer */
